@@ -1,6 +1,8 @@
-let str = prompt("Lütfen bir ifade giriniz")
-for (let j = str.length -1 ; j >= 0 ; j--) {
-console.log(str.charAt(j)) //? console.log(`${str} Palindromedur`) : console.error(`${str} Palindrome değildir`)
+let str = prompt(`Düşündüğünüz ifadeyi giriniz.
+Giriniz ki size Palindrome olup olmadığını söyleyeyim.`)
+let reverseArr = []
+for (let i = str.length -1 ; i >= 0; i--) {
+reverseArr.push((str[i]))
 }
-
-console.log(str.charAt())
+let reverseStr =reverseArr.join("")
+str === reverseStr ? console.log(`Girdiğiniz ${str} değeri bir Palindrome'dur`) : console.log(`Girdiğiniz ${str} değeri bir Palindrome  değildir.`)
