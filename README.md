@@ -21,6 +21,4 @@
 
 [Fonksiyon içinde Fonksiyon Oluşturma](https://github.com/Akintutkan/javascript-ozet/blob/master/11function-in-function.js)
 
-[Döngü Kullanarak Palindrome Kontrolü](https://github.com/Akintutkan/javascript-ozet/blob/master/15palindrome.js)
-
 [BMI Hesaplama(DOM)](https://github.com/Akintutkan/javascript-ozet/tree/master/17BMI-hesaplama)
