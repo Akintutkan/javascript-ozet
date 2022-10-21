@@ -21,8 +21,8 @@
 
 [11Fonksiyon içinde Fonksiyon Oluşturma](https://github.com/Akintutkan/javascript-ozet/blob/master/11function-in-function.js)
 
-[12Array Yöntemleri ile AddtoCart]https://github.com/Akintutkan/javascript-ozet/tree/master/12array-add-to-cart
+[12Array Yöntemleri ile AddtoCart](https://github.com/Akintutkan/javascript-ozet/tree/master/12array-add-to-cart)
 
-[13Obje Metodları]https://github.com/Akintutkan/javascript-ozet/tree/master/13object-methods
+[13Obje Metodları](https://github.com/Akintutkan/javascript-ozet/tree/master/13object-methods)
 
 [17BMI Hesaplama(DOM)](https://github.com/Akintutkan/javascript-ozet/tree/master/17BMI-hesaplama)
