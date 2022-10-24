@@ -25,4 +25,6 @@
 
 [13Obje Metodları](https://github.com/Akintutkan/javascript-ozet/tree/master/13object-methods)
 
+[14Array-Object-Methods](https://github.com/Akintutkan/javascript-ozet/tree/master/14arr-obj-add-cart)
+
 [17BMI Hesaplama(DOM)](https://github.com/Akintutkan/javascript-ozet/tree/master/17BMI-hesaplama)
