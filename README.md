@@ -27,4 +27,4 @@
 
 [14Array-Object-Methods](https://github.com/Akintutkan/javascript-ozet/tree/master/14arr-obj-add-cart)
 
-[17BMI Hesaplama(DOM)](https://github.com/Akintutkan/javascript-ozet/tree/master/17BMI-hesaplama)
+[17BMI Hesaplama(DOM)](https://github.com/Akintutkan/javascript-ozet/tree/master/17BMI-calculation-dom-exercise)
