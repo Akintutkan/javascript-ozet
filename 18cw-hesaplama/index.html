@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    
 </head>
 <body>
     <header>
@@ -13,42 +14,35 @@
         <p>şimdi size cw nasıl hesaplanır onu göstereceğiz</p>
 </header>
 <section class="form">
-      <table Border="1">
-        <tr>
-          <td>&nbsp;</td>
-          <td>PCS</td>
-          <td>long</td>
-          <td>wide</td>
-          <td>height</td>
-          <td>gross</td>
-          <td>volume Weight</td>
-          <td>volume</td>
-          <td>Total Cw</td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td><input class ="piece" type="number"  placeholder="Piece(s)"></td>
-          <td><input type="text" class="long" placeholder="L(cm)"></td>
-          <td><input type="text" class="wide" placeholder="W(cm)"></td>
-          <td><input type="text" class="height" placeholder="H(cm)"></td>
-          <td><input type="number" class="gross" placeholder="Gross(kg)"></td>
-          <td><p class="volumeweight"></p></td>
-          <td><p class="volume"></p></td>
-          <td><p class ="totalcw"></p></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td><input class ="piece" type="number"  placeholder="Piece(s)"></td>
-          <td><input type="text" class="long" placeholder="L(cm)"></td>
-          <td><input type="text" class="wide" placeholder="W(cm)"></td>
-          <td><input type="text" class="height" placeholder="H(cm)"></td>
-          <td><input type="number" class="gross" placeholder="Gross(kg)"></td>
-          <td><p class="volumeweight"></p></td>
-          <td><p class="volume1"></p></td>
-          <td><p class="totalcw1"></p></td>
-        </tr>
-        
-      </table>
+        <table border="2">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">&nbsp;</th>
+              <th scope="col">PCS</th>
+              <th scope="col">Lenght(cm)</th>
+              <th scope="col">Width(cm)</th>
+              <th scope="col">Height(cm)</th>
+              <th scope="col">Gross</th>
+              <th scope="col">VolumeWeight</th>
+              <th scope="col">Volume</th>
+              <th scope="col">TotalCw</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr>
+              <td>1</td>
+              <td><input class ="piece" type="number"  placeholder="Piece(s)"></td>
+              <td><input type="text" class="long" placeholder="L(cm)"></td>
+              <td><input type="text" class="wide" placeholder="W(cm)"></td>
+              <td><input type="text" class="height" placeholder="H(cm)"></td>
+              <td><input type="number" class="gross" placeholder="Gross(kg)"></td>
+              <td><p class="volumeweight"></p></td>
+              <td><p class="volume"></p></td>
+              <td><p class ="totalcw"></p></td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="myDynamicTable"></div>
       <div class="buttons">
       <button class="submit">Submit!</button>
       <button class="reset">Reset!</button>

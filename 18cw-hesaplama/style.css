@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* ELEMENTS STYLE */
+td{
+  max-width: 75px;
+}
+input{
+  max-width: 75px;
+}
