@@ -1,0 +1,18 @@
+#calculator{
+  background-color: crimson;
+  margin-right: 20rem;
+  padding: 10px 10px;
+}
+input {
+color: crimson;
+background-color: plum;
+}
+.btn{
+  border-radius: 10px;
+  background-color:plum;
+}
+p{
+    color: black;
+    font-size: 18px;
+    flex-direction: column;
+  }
