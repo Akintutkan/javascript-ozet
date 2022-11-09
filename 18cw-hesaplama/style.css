@@ -6,9 +6,64 @@
   box-sizing: inherit;
 }
 /* ELEMENTS STYLE */
+header{
+  justify-content: center;
+  text-align: center;
+}
+body{
+  justify-content: center;
+
+}
+.form{
+  color:aqua;
+  text-align: center
+}
+.foto{
+  justify-content: center;
+  text-align: center;
+}
+table{
+  color:#F5EFE6;
+text-align: center
+}
+thead{
+  background-color:#F5EFE6 ;
+  color:#7895B2;
+  text-align: center;
+}
+tr{
+  color:#7895B2;
+  background-color: #F5EFE6;
+}
+th{
+  color:#7895B2
+}
+tbody{
+  color:#7895B2
+}
 td{
-  max-width: 75px;
+  max-width: 5rem;
+  border:  0.5rem solid;
+  border-color: #7895B2;
+  background-color:#F5EFE6;
+}
+td>input{
+  background-color:#F5EFE6;
+  color:#7895B2
 }
 input{
-  max-width: 75px;
+  max-width: 5rem;
+  border:  0.1rem solid;
+  border-color: #7895B2;
+}
+table{
+  border: 1rem solid;
+}
+button{
+  border: solid;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-color: #7895B2;
 }

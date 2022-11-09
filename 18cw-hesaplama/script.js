@@ -178,8 +178,8 @@ const calc2 = () => {
                   totalCw.innerHTML = (grossElem > volumeWeight.innerHTML) ? grossElem: volumeWeight.innerHTML}
                   document.querySelector(".submit").addEventListener("click",calc10)
 
-// const resetCalc =
-//                   document.querySelector(".reset").addEventListener("click",resetCalc)
+const resetCalc = () => {window.location.reload()}
+                  document.querySelector(".reset").addEventListener("click",resetCalc)
 
             
 
