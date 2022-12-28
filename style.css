@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: yellow;
+}
+.first{
+    
+    align-items: flex-start;
+}
+.second{
+    
+    align-items: center;
+}
+.third{
+    
+    align-content: flex-end;
+}

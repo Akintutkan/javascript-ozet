@@ -4,5 +4,6 @@ let reverseArr = []
 for (let i = str.length -1 ; i >= 0; i--) {
 reverseArr.push((str[i]))
 }
+console.log(reverseArr)
 let reverseStr =reverseArr.join("")
 str === reverseStr ? console.log(`Girdiğiniz ${str} değeri bir Palindrome'dur`) : console.log(`Girdiğiniz ${str} değeri bir Palindrome  değildir.`)
